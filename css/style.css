@@ -1,0 +1,45 @@
+    * {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .curtain {
+        width: 100vw;
+        height: 100vh;
+        background-color: aliceblue;
+        display: grid;
+        place-items: center;
+    }
+    
+    .button {
+        display: inline-block;
+        width: 100px;
+        height: 50px;
+        border: 2px solid pink;
+        line-height: 50px;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    
+    #pink {
+        background-color: pink;
+    }
+    
+    .vedio {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+    
+    .main {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+    
+    video {
+        height: 100vh;
+        width: auto;
+    }
